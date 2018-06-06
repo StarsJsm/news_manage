@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- USERS的HBM -->
+<hibernate-mapping>
+
+	<class name="entity.Users" table="USERS">
+		<id name="userId" type="java.lang.String" length="5">
+			<generator class="assigned" />
+		</id>
+		<property name="userName" type="java.lang.String" />
+		<property name="userPswd" type="java.lang.String" />
+		<property name="departId" type="int" />
+		<property name="userSex" type="java.lang.String" />
+		<property name="userTele" type="java.lang.String" />
+		<property name="userEmail" type="java.lang.String" />
+		<property name="authority" type="int" />
+		<property name="status" type="int" />
+		
+	</class>
+
+</hibernate-mapping>

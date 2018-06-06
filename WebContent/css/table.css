@@ -1,0 +1,107 @@
+.right_index *{font-size: 16px;}
+
+thead tr{
+	background: #80d5ff;
+}
+tbody tr:hover{
+	background: #f1f1f1;
+}
+/*第一个表单*/
+.first-table{
+	position: absolute;
+	float: left;
+	width: 932px;
+	margin: 20px 0 0 20px;
+	overflow: auto;
+	text-align: center;
+	border-collapse: collapse;
+	
+}
+.first-table thead{
+	
+	line-height: 30px;
+}
+
+.first-table thead tr th{
+	font-size: 16px;
+	width: 15%;
+}
+.first-table thead tr th:nth-last-child(2),.first-table thead tr th:last-child{
+	width:20% ;
+}
+
+.first-table tbody{
+	margin-top: 5px;
+}
+.first-table tr{
+	line-height: 36px;
+}
+.first-table tbody tr{
+	line-height: 28px;
+}
+
+.first-table tbody tr{
+	border-bottom:1px solid #8F8F94;
+	line-height: 36px;
+}
+.first-table tbody tr:first-child{
+	border-top: 2px solid #8F8F94;
+}
+/*第二个表单*/
+.send-table{
+	top:50%;
+	left: 50%;
+	margin: -200px 0 0 -300px;
+	position: absolute;
+	width: 600px;
+	height: 330px;
+	background:#f1f1f1;
+	border-radius: 10px;
+	
+	display: none;
+}
+.send-table input, .third-table input{
+	border: 1px solid #8F8F94;
+}
+.send-table ul, .third-table ul{
+	margin: 20px 0 0 20px;
+}
+.send-table ul li, .third-table ul li{
+	margin-bottom: 20px;
+}
+.send-table ul li:nth-child(4){
+	margin-bottom: 0px;
+}
+.send-table .text_size_1, .third-table .text_size_1{
+	width: 558px;
+	height: 150px;
+	line-height: 26px;
+	text-indent: 2em;
+	overflow: auto;
+}
+.send-table .text_size_2, .third-table .text_size_2{
+	width: 50px;
+	height: 30px;
+	
+}
+.send-table .text_size_2:hover{
+	background: #80d5ff;
+	line-height: 32px;
+}
+
+/*第三个表单*/
+.third-table{
+	
+	left: 50%;
+	margin: 20px 0 0 -300px;
+	width: 600px;
+	position: absolute;
+	background:#f1f1f1;
+	border-radius: 10px;
+	
+	display: none;
+}
+.third-table ul li:first-child input{ margin-left: 15px;}
+.third-table .text_size_2:hover{
+	background: #80d5ff;
+}

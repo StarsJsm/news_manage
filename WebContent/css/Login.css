@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #333333;
+	border: none;
+}
+.big_div{
+	width: 100%;
+	height: 600px;
+	background: url(../img/logn_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 100px ;
+}
+.login_center{
+	width: 1200px;
+	margin: 0 auto;
+	height: 600px;
+}
+.center_right{
+	width: 340px;
+	height: 440px;
+	float: right;
+	margin: 80px 50px 0 0;
+	border: 1px solid #c0cdd9;
+	border-radius: 10px;
+}
+.center_right h2{
+	text-align: center;
+	font-size: 22px;
+	height: 50px;
+	background: rgba(204, 224, 255,0.6);
+	line-height: 50px;
+	font-weight: 500;
+	border-top-left-radius: 10px;
+	border-top-right-radius:10px ;
+}
+.center_right ul{
+	margin-top: 40px;
+}
+.center_right li{
+	float: left;
+	margin-bottom:20px;
+	height: 40px;
+	width: 100%;
+}
+.center_right li input{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	text-indent: 1em;
+	margin: 0 20px;
+	width: 300px;
+	background:#f2f2f2;
+	border-radius: 5px;
+}
+.center_right  .input_ys{
+	width: auto;
+	height: auto;
+	margin-right: 5px;
+}
+
+.center_right li:last-child{
+	margin-top: 20px;
+}
+.center_right li:last-child input{
+	text-align: center;
+	text-indent:0;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	background:rgba(26, 117, 255,0.85);
+	display: block;
+	margin: 0 20px;
+	color:#f2f2f2;
+	font-size: 18px;
+}

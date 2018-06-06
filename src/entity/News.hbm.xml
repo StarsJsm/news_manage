@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- USERS的HBM -->
+<hibernate-mapping>
+
+	<class name="entity.News" table="NEWS">
+		<id name="newsId" type="int">
+			<generator class="native" />
+		</id>
+		<property name="title" type="java.lang.String" />
+		<property name="content" type="java.lang.String" />
+		<property name="userId" type="java.lang.String" />
+		<property name="time" type="java.sql.Date" />
+		<property name="status" type="int" />
+		<property name="count" type="int" />
+	</class>
+
+</hibernate-mapping>
